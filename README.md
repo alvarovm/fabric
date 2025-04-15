@@ -640,6 +640,14 @@ You can also create an alias by editing `~/.bashrc` or `~/.zshrc` and adding the
 alias pbpaste='xclip -selection clipboard -o'
 ```
 
+On WSL 2, you can also use the PowerShell command `Get-Clipboard` from a PowerShell command prompt.
+
+You can also create an alias by editing `~/.bashrc` or `~/.zshrc` and adding the alias,
+
+```sh
+alias pbpaste='powershell.exe -c Get-Clipboard'
+```
+
 ## Web Interface
 
 Fabric now includes a built-in web interface that provides a GUI alternative to the command-line interface and an out-of-the-box website for those who want to get started with web development or blogging.
