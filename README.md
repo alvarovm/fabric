@@ -146,6 +146,7 @@ To install Fabric, you can use the latest release binaries or install it from th
 
 `https://github.com/danielmiessler/fabric/releases/latest/download/fabric-windows-amd64.exe`
 
+
 #### macOS (arm64)
 
 `curl -L https://github.com/danielmiessler/fabric/releases/latest/download/fabric-darwin-arm64 > fabric && chmod +x fabric && ./fabric --version`
@@ -161,6 +162,10 @@ To install Fabric, you can use the latest release binaries or install it from th
 #### Linux (arm64)
 
 `curl -L https://github.com/danielmiessler/fabric/releases/latest/download/fabric-linux-arm64 > fabric && chmod +x fabric && ./fabric --version`
+
+#### WLS 2
+
+`curl -L https://github.com/danielmiessler/fabric/releases/latest/download/fabric-windows-amd64.exe > fabric && chmod +x fabric && ./fabric --version`
 
 ### Using package managers
 
